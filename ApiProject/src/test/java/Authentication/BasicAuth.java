@@ -1,5 +1,6 @@
 package Authentication;
 
+import org.junit.Ignore;
 import org.testng.annotations.Test;
 
 import io.restassured.http.ContentType;
@@ -8,7 +9,7 @@ import static io.restassured.RestAssured.*;
 
 public class BasicAuth {
 	
-	@Test
+@Test
 	public void basicAuth() 
 	{
 	
